@@ -14,7 +14,7 @@ _class:
 
 # Jak psát moderní učebnice
 
-Miroslav Suchý, Sergei Petrosian, Lukáš Růžička:  
+[Miroslav Suchý](mailto:msuchy@redhat.com), [Sergei Petrosian](mailto:spetrosi@redhat.com), [Lukáš Růžička](mailto:lruzicka@redhat.com)
 
 ## Jak je tato prezentace vytvořena
 
