@@ -1,4 +1,5 @@
 <!--
+title: Jak psát moderní učebnice
 theme: gaia
 class:
  - invert
