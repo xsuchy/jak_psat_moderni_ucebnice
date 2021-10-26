@@ -18,9 +18,9 @@ Miroslav Suchý, Sergei Petrosian, Lukáš Růžička:
 
 ## Jak je tato prezentace vytvořena
 
-This presentation is created with the help of [Marp](https://marp.app/) and [Marp Action](https://github.com/ralexander-phi/marp-action) that lets you automatically deploy your presentation to [GitHub Pages](https://pages.github.com/).
+Tato prezentace je vytvořena pomocí [Marp](https://marp.app/) a [Marp Action](https://github.com/ralexander-phi/marp-action), které umožňují automatické nasazení prezentace na [GitHub Pages](https://pages.github.com/).
 
-This presentation is both a [website](https://spetrosi.github.io/jak_psat_moderni_ucebnice/) and a [README.md](https://github.com/spetrosi/jak_psat_moderni_ucebnice/blob/master/README.md).
+Tato prezentace je zároveň [webová stránka](https://spetrosi.github.io/jak_psat_moderni_ucebnice/) a [README.md](https://github.com/spetrosi/jak_psat_moderni_ucebnice/blob/master/README.md).
 
 # 🎉
 <!--
