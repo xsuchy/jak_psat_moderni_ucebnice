@@ -81,11 +81,9 @@ Ukážeme si jednu z mnoha.
 
 Principy Docs as Code:
 
-- Správa verzí (Git)
-- Open-source (Není nutné)
-- Kontrola změn
-- Automatické testování
-- Automatické vygenerování a publikace materiálů
+- Open-source umožňuje aby na tom projektu spolupracovalo víc lidi
+- Kontrola změn kterou autor muže delegovat na uživatele jestli publikace bude populární
+- Automatické testování, vygenerování, a publikace materiálů
 - Psání v značkovacích jazycích namísto .docx (Markdown, AsciiDoc, LateX, atd.)
 
 ## Vlastností jazyka Markdown
@@ -95,45 +93,46 @@ Principy Docs as Code:
 ## Kapitola 1. Tučné písmo, kurzíva, a monospace
 Tento řádek obsahuje **tučné písmo**, *kurzívu*, a `monospace`
 
-## Podkapitola 1.1. Číslovaný seznam pomoci čisel
+### Podkapitola 1.1. Číslovaný seznam pomocí čisel
 1. Řádek 1
 2. Řádek 2
 
-## Kapitola 2. Seznam odrážek pomoci pomlček
+## Kapitola 2. Seznam odrážek pomocí pomlček
 - Řádek 1
  - Podřádek 1.1
 - Řádek 2
 
-## Kapitola 3. Okdazy
+## Kapitola 3. Odkazy
 [Seznam.cz](https://www.seznam.cz/)
 ```
 
-## Konverze souboru v rozšíření Markdown
+## Převod souboru v rozšíření Markdown
 
-Na konverzí textových souboru lze použit speciálně nástroje, jako například následující:
+Na převod textových souboru lze použit speciálně nástroje, jako například následující:
 - `pandoc`
 - `kramdoc`
 - `marp`
 
 <!--
-Tady bude ukázka konverze příkladu do HTML pomocí pandoc
+Tady bude ukázka převod příkladu do HTML pomocí pandoc
 -->
 
 ## Jak je tato prezentace vytvořena
 
-Tato prezentace je vytvořena pomocí [Marp](https://marp.app/) a [Marp Action](https://github.com/ralexander-phi/marp-action), které umožňují automatické nasazení prezentace na [GitHub Pages](https://pages.github.com/).
+Tato prezentace je vytvořena pomocí [Marp](https://marp.app/) a [Marp Action](https://github.com/ralexander-phi/marp-action), které umožňují automatické nasazení prezentace na web pomocí [GitHub Pages](https://pages.github.com/).
 
-Tato prezentace je zároveň [webová stránka](https://spetrosi.github.io/jak_psat_moderni_ucebnice/) a [README.md](https://github.com/spetrosi/jak_psat_moderni_ucebnice/blob/master/README.md) soubor.
+Tato prezentace je vygenerovaná z Markdown souboru https://github.com/spetrosi/jak_psat_moderni_ucebnice/blob/master/README.md
+GitHub Pages automatické publikuje slajdy na https://spetrosi.github.io/jak_psat_moderni_ucebnice/
 
 <!--
-Tady bude ukázka konverze slajdů z README.md do HTML a PDF pomocí marp
+Tady bude ukázka převod slajdů z README.md do HTML a PDF pomocí marp
 -->
 
 ## Co když Markdown pro moje účele nestačí?
 
-AsciiDoc je další značkovací jazyk který má větší funkcionalitu a je schopen plnit následující úkoly:
-- Pomoci `include::` lze přidávat obsah souborů přímo do nynějšího textu
+AsciiDoc je další značkovací jazyk který má větší funkcionalitu a dokáže mnohem míc. Například je schopen plnit následující úkoly:
 - AsciiDoc poskytuje sofistikovaněji strukturu dokumentů.
+- Pomoci `include::` lze přidávat obsah souborů přímo do nynějšího textu
 - Lze využit proměnné pro opakované použití stejného obsahu
 - Lze použit HTML poznámky a upozornění
 - Lze vytvořit obsah automatické
