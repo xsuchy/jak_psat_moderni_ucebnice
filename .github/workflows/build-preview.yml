@@ -17,11 +17,16 @@ jobs:
       - name: Install marp
         run: npm install -g @marp-team/marp-cli@1.4.0
 
-      - name: Build the changed slides
-        run: marp README.md -o index.html
+      - name: Build HTML slides
+        run: marp README.md
 
-      - name: Upload preview slides
+      - name: Build PDF slides
+        run: marp README.md --pdf --allow-local-files
+
+      - name: Upload slides
         uses: actions/upload-artifact@v2
         with:
           name: slides-preview-${{ env.BRANCH_NAME }}
-          path: index.html
+          path: |
+            README.html
+            README.pdf
