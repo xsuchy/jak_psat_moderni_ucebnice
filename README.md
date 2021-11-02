@@ -82,7 +82,7 @@ Ukážeme si jednu z mnoha.
 Principy Docs-as-Code:
 
 - Správa verzí (Git)
-- Open-source (ne nutně) umožňuje aby na tom projektu spolupracovalo víc lidi
+- Open-source (volitelně) umožňuje aby na tom projektu spolupracovalo víc lidi
 - Kontrola změn kterou autor muže delegovat na uživatele jestli publikace bude populární
 - Asynchronní spolupráce (každý, kdy má čas)
 - Automatické testování, generování, a publikace materiálů
@@ -111,9 +111,9 @@ Tento řádek obsahuje **tučné písmo**, *kurzívu*, a `monospace`
 ## Převod souboru v rozšíření Markdown
 
 Ke konverzi textových souborů lze použít k tomu určené nástroje, jako například:
-- `pandoc`
-- `kramdoc`
-- `marp`
+- [pandoc](https://pandoc.org/)
+- [Marp](https://marp.app/)
+- [kramdown](https://kramdown.gettalong.org/)
 
 <!--
 Tady bude ukázka převod příkladu do HTML pomocí pandoc
@@ -123,8 +123,11 @@ Tady bude ukázka převod příkladu do HTML pomocí pandoc
 
 Tato prezentace je vytvořena pomocí [Marp](https://marp.app/) a [Marp Action](https://github.com/ralexander-phi/marp-action), které umožňují automatické nasazení prezentace na web pomocí [GitHub Pages](https://pages.github.com/).
 
-Tato prezentace je vygenerovaná z Markdown souboru https://github.com/spetrosi/jak_psat_moderni_ucebnice/blob/master/README.md
-GitHub Pages automatické publikuje slajdy na https://spetrosi.github.io/jak_psat_moderni_ucebnice/
+Tato prezentace je vygenerovaná z Markdown souboru `README.md`:
+https://github.com/spetrosi/jak_psat_moderni_ucebnice/blob/master/README.md
+
+GitHub Pages automatické publikuje slajdy na web:
+https://spetrosi.github.io/jak_psat_moderni_ucebnice/
 
 <!--
 Tady bude ukázka převod slajdů z README.md do HTML a PDF pomocí marp
@@ -143,8 +146,8 @@ AsciiDoc je další značkovací jazyk který má větší funkcionalitu a doká
 
 Dokumentace __The Foreman__ je psána v AsciiDocu.
 
-- Cílová stránka: https://docs.theforeman.org/.
-- Zdroj dokumentace nahází na GitHubu: https://github.com/theforeman/foreman-documentation.
+- Cílová stránka: https://docs.theforeman.org/
+- Zdroj dokumentace nahází na GitHubu: https://github.com/theforeman/foreman-documentation
 
 <!--
 Tady bude ukázka jak Foreman docs používají AsciiDoc pro generace své dokumentace
@@ -171,6 +174,10 @@ Jak rychle a jednodušše začít psát knihy způsobem *as-code* pomocí [Githu
 * účet na on-line repozitáři (Github)
 * program na správu verzí (Git) (volitelně)
 
-## Otázky a odpovědi
-
-
+# 🎉
+<!--
+_class:
+ - lead
+ - invert
+-->
+### Otázky a odpovědi
