@@ -5,12 +5,15 @@ class:
  - invert
 headingDivider: 2 
 paginate: true
-title: Jak psát moderní učebnice
-description: Prezentace pro OpenAlt 2021
+-->
+
+<!--
+_class:
+ - lead
+ - invert
 -->
 
 # Jak psát moderní učebnice
-<!-- _class: lead -->
 
 [Miroslav Suchý](mailto:msuchy@redhat.com), [Sergei Petrosian](mailto:spetrosi@redhat.com), [Lukáš Růžička](mailto:lruzicka@redhat.com)
 
@@ -78,13 +81,12 @@ Ukážeme si jednu z mnoha.
 
 Principy Docs-as-Code:
 
-- psaní ve značkovacích jazycích namísto WYSIWYG (Markdown, AsciiDoc, LateX, atd.)
-- asynchronní spolupráce (každý, kdy má čas)
-- správa verzí (Git)
-- open-source (ne nutně)
-- kontrola změn
-- automatické testování
-- automatické generování a publikace materiálů
+- Správa verzí (Git)
+- Open-source (ne nutně) umožňuje aby na tom projektu spolupracovalo víc lidi
+- Kontrola změn kterou autor muže delegovat na uživatele jestli publikace bude populární
+- Asynchronní spolupráce (každý, kdy má čas)
+- Automatické testování, generování, a publikace materiálů
+- Psaní ve značkovacích jazycích namísto WYSIWYG (Markdown, AsciiDoc, LateX, atd.)
 
 ## Zápis jazyka Markdown
 
@@ -130,12 +132,12 @@ Tady bude ukázka převod slajdů z README.md do HTML a PDF pomocí marp
 
 ## Co když Markdown pro moje účely nestačí?
 
-AsciiDoc je další značkovací jazyk, který má větší funkcionalitu a je například schopen plnit následující úkoly:
-- Pomocí direktivy `include::` lze přidávat obsah souborů přímo do stávajícího textu.
-- AsciiDoc poskytuje sofistikovaněji strukturu dokumentů.
-- Lze využit proměnné pro opakované použití stejného obsahu.
-- Lze použit HTML poznámky a upozornění.
-- Lze nechat automaticky vygenerovat obsah.
+AsciiDoc je další značkovací jazyk který má větší funkcionalitu a dokáže mnohem víc. Například je schopen plnit následující úkoly:
+- AsciiDoc poskytuje sofistikovaněji strukturu dokumentů
+- Pomocí direktivy `include::` lze přidávat obsah souborů přímo do stávajícího textu
+- Lze využit proměnné pro opakované použití stejného obsahu
+- Lze použit HTML poznámky a upozornění
+- Lze nechat automaticky vygenerovat obsah
 
 ## Příklad dokumentace v AsciiDocu
 
