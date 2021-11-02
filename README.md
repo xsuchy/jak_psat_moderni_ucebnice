@@ -5,15 +5,12 @@ class:
  - invert
 headingDivider: 2 
 paginate: true
--->
-
-<!--
-_class:
- - lead
- - invert
+title: Jak psát moderní učebnice
+description: Prezentace pro OpenAlt 2021
 -->
 
 # Jak psát moderní učebnice
+<!-- _class: lead -->
 
 [Miroslav Suchý](mailto:msuchy@redhat.com), [Sergei Petrosian](mailto:spetrosi@redhat.com), [Lukáš Růžička](mailto:lruzicka@redhat.com)
 
@@ -77,16 +74,19 @@ Je mnoho možností.
 
 Ukážeme si jednu z mnoha.
 
-## <!--fit--> Psaní dokumentace ve formátu "Docs as Code"
+## <!--fit--> Psaní dokumentace ve formátu "Docs-as-Code"
 
-Principy Docs as Code:
+Principy Docs-as-Code:
 
-- Open-source umožňuje aby na tom projektu spolupracovalo víc lidi
-- Kontrola změn kterou autor muže delegovat na uživatele jestli publikace bude populární
-- Automatické testování, vygenerování, a publikace materiálů
-- Psání v značkovacích jazycích namísto .docx (Markdown, AsciiDoc, LateX, atd.)
+- psaní ve značkovacích jazycích namísto WYSIWYG (Markdown, AsciiDoc, LateX, atd.)
+- asynchronní spolupráce (každý, kdy má čas)
+- správa verzí (Git)
+- open-source (ne nutně)
+- kontrola změn
+- automatické testování
+- automatické generování a publikace materiálů
 
-## Vlastností jazyka Markdown
+## Zápis jazyka Markdown
 
 ```md
 # Název
@@ -108,7 +108,7 @@ Tento řádek obsahuje **tučné písmo**, *kurzívu*, a `monospace`
 
 ## Převod souboru v rozšíření Markdown
 
-Na převod textových souboru lze použit speciálně nástroje, jako například následující:
+Ke konverzi textových souborů lze použít k tomu určené nástroje, jako například:
 - `pandoc`
 - `kramdoc`
 - `marp`
@@ -128,18 +128,18 @@ GitHub Pages automatické publikuje slajdy na https://spetrosi.github.io/jak_psa
 Tady bude ukázka převod slajdů z README.md do HTML a PDF pomocí marp
 -->
 
-## Co když Markdown pro moje účele nestačí?
+## Co když Markdown pro moje účely nestačí?
 
-AsciiDoc je další značkovací jazyk který má větší funkcionalitu a dokáže mnohem míc. Například je schopen plnit následující úkoly:
+AsciiDoc je další značkovací jazyk, který má větší funkcionalitu a je například schopen plnit následující úkoly:
+- Pomocí direktivy `include::` lze přidávat obsah souborů přímo do stávajícího textu.
 - AsciiDoc poskytuje sofistikovaněji strukturu dokumentů.
-- Pomoci `include::` lze přidávat obsah souborů přímo do nynějšího textu
-- Lze využit proměnné pro opakované použití stejného obsahu
-- Lze použit HTML poznámky a upozornění
-- Lze vytvořit obsah automatické
+- Lze využit proměnné pro opakované použití stejného obsahu.
+- Lze použit HTML poznámky a upozornění.
+- Lze nechat automaticky vygenerovat obsah.
 
 ## Příklad dokumentace v AsciiDocu
 
-Dokumentace __The Foreman__ je psána v AsiiDocu.
+Dokumentace __The Foreman__ je psána v AsciiDocu.
 
 - Cílová stránka: https://docs.theforeman.org/.
 - Zdroj dokumentace nahází na GitHubu: https://github.com/theforeman/foreman-documentation.
@@ -152,10 +152,23 @@ Tady bude ukázka jak Foreman docs používají AsciiDoc pro generace své dokum
 Tady si předáme slovo
 -->
 
-# 🎉
-<!--
-_class:
- - lead
- - invert
--->
-### Otázky a odpovědi
+## Demo ukázka
+
+Jak rychle a jednodušše začít psát knihy způsobem *as-code* pomocí [Githubu](github.com) a *Github pages*:
+
+* založení repozitáře
+* potřebné nastavení repozitáře
+* editace na hlavní větvi a generování obsahu
+* editace na vývojové větvi
+* sloučení vývojové do hlavní větve a generování obsahu
+
+##  Co k tomu budeme potřebovat?
+
+* počítač s textovým editorem schopným psát "čistý" text (Notepad, Atom, VisualCode)
+* přístup na internet
+* účet na on-line repozitáři (Github)
+* program na správu verzí (Git) (volitelně)
+
+## Otázky a odpovědi
+
+
