@@ -27,6 +27,8 @@ _class:
 
 ## Učebnice je klasika?
 
+Trvanlivost a odolnost materiálu, mnohdy desítky let.
+
 ![bg right fit](img/not-found.png)
 
 ## Jenže...
@@ -34,6 +36,9 @@ _class:
 Napsat učebnici trvá rok.
 
 Vydat učebnici trvá taky rok.
+
+V ICT jsou dva roky věčnost. Ale platí to i pro jiné obory.
+
 
 ## Takže...
 
@@ -52,6 +57,18 @@ Různé formáty: Rukopis -> Nakladatelství -> Tiskárna
 HTML, PDF a online publikace zpravidla nejsou původní zdroj.
 
 Nízká bariéra pro opravy a úpravy.
+
+## Požadavky na moderní učebnici
+
+Tvorba a publikování lze dělat současně.
+
+Učebnice jsou dostupné všem a zdarma (nebo za minimální poplatek).
+
+Na vytváření učebnic může spolupracovat množství nezávislých autorů, dokonce i sami studenti.
+
+Obsah lze měnit, přizpůsobovat a neustále vylepšovat.
+
+Obsah lze jednoduše převést
 
 ## Komunitní dílo (+)
 
