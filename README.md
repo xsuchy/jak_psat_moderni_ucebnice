@@ -127,7 +127,7 @@ Tento řádek obsahuje **tučné písmo**, *kurzívu*, a `monospace`
 
 ## Převod souboru v rozšíření Markdown
 
-Ke konverzi textových souborů lze použít k tomu určené nástroje, jako například:
+K převodu textových souborů lze použít k tomu určené nástroje, jako například:
 - [pandoc](https://pandoc.org/)
 - [Marp](https://marp.app/)
 - [kramdown](https://kramdown.gettalong.org/)
@@ -178,18 +178,18 @@ Tady si předáme slovo
 
 Jak rychle a jednodušše začít psát knihy způsobem *as-code* pomocí [Githubu](github.com) a *Github pages*:
 
-* založení repozitáře
-* potřebné nastavení repozitáře
-* editace na hlavní větvi a generování obsahu
-* editace na vývojové větvi
-* sloučení vývojové do hlavní větve a generování obsahu
+- založení repozitáře
+- potřebné nastavení repozitáře
+- editace na hlavní větvi a generování obsahu
+- editace na vývojové větvi
+- sloučení vývojové do hlavní větve a generování obsahu
 
 ##  Co k tomu budeme potřebovat?
 
-* počítač s textovým editorem schopným psát "čistý" text (Notepad, Atom, VisualCode)
-* přístup na internet
-* účet na on-line repozitáři (Github)
-* program na správu verzí (Git) (volitelně)
+- počítač s textovým editorem schopným psát "čistý" text (Notepad, Atom, VisualCode)
+- přístup na internet
+- účet na on-line repozitáři (Github)
+- program na správu verzí (Git) (volitelně)
 
 # 🎉
 <!--
