@@ -99,11 +99,11 @@ Ukážeme si jednu z mnoha.
 Principy Docs-as-Code:
 
 - Správa verzí (Git)
-- Open-source (volitelně) umožňuje aby na tom projektu spolupracovalo víc lidi
-- Kontrola změn kterou autor muže delegovat na uživatele jestli publikace bude populární
+- Umožňuje aby na tom projektu spolupracovalo víc lidi
+- Kontrola změn kterou autor muže delegovat
 - Asynchronní spolupráce (každý, kdy má čas)
 - Automatické testování, generování, a publikace materiálů
-- Psaní ve značkovacích jazycích namísto WYSIWYG (Markdown, AsciiDoc, LateX, atd.)
+- Psaní ve značkovacích jazycích (Markdown, AsciiDoc, LateX, atd.) namísto WYSIWYG (LibreOffice, MS Word)
 
 ## Zápis jazyka Markdown
 
