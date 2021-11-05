@@ -19,6 +19,8 @@ _class:
 
 ## Učebnice je klasika
 
+Trvanlivost a odolnost materiálu, mnohdy desítky let.
+
 ![bg right](img/slabikar.jpg)
 
 ## Učebnice je klasika?
@@ -26,8 +28,6 @@ _class:
 ![bg right fit](img/baltik.jpg)
 
 ## Učebnice je klasika?
-
-Trvanlivost a odolnost materiálu, mnohdy desítky let.
 
 ![bg right fit](img/not-found.png)
 
@@ -37,7 +37,7 @@ Napsat učebnici trvá rok.
 
 Vydat učebnici trvá taky rok.
 
-V informatice jsou dva roky věčnost. Ale platí to i pro jiné obory.
+V informatice jsou dva roky věčnost. Pro jiné obory je to obdobné.
 
 ## Takže...
 
@@ -73,9 +73,9 @@ Nízká bariéra pro opravy a úpravy.
 
 - Jeden člověk vše neobsáhne.
 
-- Možnost použít jenom část díla.
-
 - Online přítomnost a aktuálnost.
+
+- Možnost použít jenom část díla.
 
 ## Komunitní dílo (-)
 
@@ -176,7 +176,7 @@ Tady si předáme slovo
 
 ## Demo ukázka
 
-Jak rychle a jednodušše vytvořit krátkou knihu způsobem *as-code* pomocí [Githubu](github.com) a publikovat ji na webu přes *Github pages*:
+Jak rychle a jednoduše vytvořit krátkou knihu způsobem *as-code* pomocí [Githubu](github.com) a publikovat ji na webu přes *Github pages*:
 
 - založení repozitáře
 - potřebné nastavení repozitáře
